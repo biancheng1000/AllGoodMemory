@@ -4,14 +4,14 @@
 
 <div class="btn-group-vertical">
     <div class="btn-group">
-        <button class="btn btn-sq-lg btn-primary">
+        <button class="btn btn-sq-lg btn-primary" onclick="location.href='@Url.Action("Index", "Photo")'">
             <span class="glyphicon glyphicon-list"></span> 照片
         </button>
-        <button class="btn btn-sq-lg btn-primary disabled">
+        <button class="btn btn-sq-lg btn-primary"  onclick="location.href='@Url.Action("Index", "Vedio")'">
             <span class="glyphicon glyphicon-edit"></span> 视频
         </button>
     </div>
-    <button class="btn btn-rc-lg btn-success disabled">
+    <button class="btn btn-rc-lg btn-success"  onclick="location.href='@Url.Action("Index", "Diary")'">
         <span class="glyphicon glyphicon-calendar"></span>日记
     </button>
 </div>
