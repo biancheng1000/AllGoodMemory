@@ -1,0 +1,53 @@
+﻿@import 'Notepad.css';
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    /*padding: 15px 15px 0 15px;*/
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.btn-sq-lg {
+  width: 175px !important;
+  height: 175px !important;
+  font-size: 20px !important;
+  margin-bottom: 5px !important;
+}
+
+.btn-sq-lg  > .glyphicon {
+    font-size: 60px !important;
+    display: block !important;
+    margin-bottom: 20px;
+}
+.btn-rc-lg {
+    max-width: 353px !important;
+    width: 100%;
+    height: 150px;font-size: 150% !important;
+}
+
+.btn-rc-lg  > .glyphicon {
+    font-size: 60px !important;
+    display: block !important;
+    margin-bottom: 20px;
+}
+
+@media (max-width:400px) {
+    .btn-rc-lg {
+        max-width: 175px !important;
+        font-size: 135% !important;
+    }
+}
+
