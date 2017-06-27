@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AllGoodMemory.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,13 @@ namespace AllGoodMemory.Controllers
         // GET: Photo
         public ActionResult Index()
         {
-            return View();
+            myDaughterModel modes = new myDaughterModel();
+            IList<mydaughter_photos> allphotos = modes.mydaughter_photos.ToList();
+            if (allphotos == null)
+            {
+                return new HttpNotFoundResult();
+            }
+            return View(allphotos.First());
         }
     }
 }

@@ -1,8 +1,27 @@
 ﻿
-@{
-    ViewBag.Title = "View";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
+    @Model AllGoodMemory.Models.mydaughter_photos
 
-<h2>我的女儿的照片</h2>
+    @{
+        ViewBag.Title = "View";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
 
+
+    <h2>我的女儿的照片</h2>
+    <button>添加照片..</button>
+
+    <table>
+        <tr>
+            <th>照片ID</th>
+            <th>照片名称</th>
+            <th>分组ID</th>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.PotoName)
+            </td>
+        </tr>
+    </table>
+
+  
+    

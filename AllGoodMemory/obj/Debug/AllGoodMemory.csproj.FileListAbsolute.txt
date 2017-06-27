@@ -77,6 +77,9 @@ E:\软件和资料\源码参考\github\AllGoodMemory\AllGoodMemory\bin\Microsoft
 E:\软件和资料\源码参考\github\AllGoodMemory\AllGoodMemory\bin\Microsoft.Owin.Security.Google.xml
 E:\软件和资料\源码参考\github\AllGoodMemory\AllGoodMemory\bin\Microsoft.Owin.Security.Twitter.xml
 E:\软件和资料\源码参考\github\AllGoodMemory\AllGoodMemory\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-E:\软件和资料\源码参考\github\AllGoodMemory\AllGoodMemory\obj\Debug\AllGoodMemory.csprojResolveAssemblyReference.cache
 E:\软件和资料\源码参考\github\AllGoodMemory\AllGoodMemory\obj\Debug\AllGoodMemory.dll
 E:\软件和资料\源码参考\github\AllGoodMemory\AllGoodMemory\obj\Debug\AllGoodMemory.pdb
+E:\软件和资料\源码参考\github\AllGoodMemory\AllGoodMemory\bin\MySql.Data.dll
+E:\软件和资料\源码参考\github\AllGoodMemory\AllGoodMemory\bin\MySql.Data.Entity.EF6.dll
+E:\软件和资料\源码参考\github\AllGoodMemory\AllGoodMemory\bin\MySql.Data.xml
+E:\软件和资料\源码参考\github\AllGoodMemory\AllGoodMemory\bin\MySql.Data.Entity.EF6.xml
