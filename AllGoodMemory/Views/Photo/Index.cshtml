@@ -1,15 +1,13 @@
 ﻿
-    @Model AllGoodMemory.Models.mydaughter_photos
+    @model AllGoodMemory.Models.mydaughter_photos
 
     @{
-        ViewBag.Title = "View";
+        ViewBag.Title = "照片";
         Layout = "~/Views/Shared/_Layout.cshtml";
     }
 
-
-    <h2>我的女儿的照片</h2>
-    <button>添加照片..</button>
-
+    <h2>可心的照片</h2>
+    <hr />
     <table>
         <tr>
             <th>照片ID</th>
@@ -18,7 +16,13 @@
         </tr>
         <tr>
             <td>
-                @Html.DisplayNameFor(model => model.PotoName)
+                @Html.DisplayFor(model => model.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(model=>model.PotoName)
+            </td>
+            <td>
+                @Html.DisplayFor(model=>model.GroupID)
             </td>
         </tr>
     </table>

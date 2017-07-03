@@ -15,14 +15,14 @@ namespace AllGoodMemory.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "这是可心的个人网页";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "请联系可心的爸爸(-^_^-)!";
 
             return View();
         }
